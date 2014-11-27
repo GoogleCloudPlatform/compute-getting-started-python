@@ -1,6 +1,6 @@
 # Getting Started with Compute Engine and the Google Python Client Library
 
-Google Compute Engine features a RESTful API that allows developers to
+[Google Compute Engine](https://cloud.google.com/compute/) features a RESTful API that allows developers to
 run virtual machines in the cloud. This sample python command-line application
 demonstrates how to access the Compute Engine API using the Google Python API
 Client Library. For more information about the library, read the
@@ -39,11 +39,11 @@ Demo steps:
 - [python-gflags][8]
 - [httplib2][9]
 
-[1]: https://developers.google.com/compute/docs/api/python_guide
-[2]: https://developers.google.com/compute/docs/overview#concepts
+[1]: https://cloud.google.com/compute/docs/api/python-guide
+[2]: https://cloud.google.com/compute/docs/overview#concepts
 [3]: https://code.google.com/apis/console
-[4]: https://developers.google.com/compute
-[5]: https://developers.google.com/storage
+[4]: https://cloud.google.com/compute/docs/
+[5]: https://cloud.google.com/storage/docs/overview
 [6]: https://python.org
 [7]: http://code.google.com/p/google-api-python-client/
 [8]: https://code.google.com/p/python-gflags/
