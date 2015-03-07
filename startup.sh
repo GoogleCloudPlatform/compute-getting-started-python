@@ -12,7 +12,7 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-apt-get -y install imagemagick
+apt-get update && apt-get -y install imagemagick
 IMAGE_URL=$(curl http://metadata/computeMetadata/v1/instance/attributes/url -H "X-Google-Metadata-Request: True")
 TEXT=$(curl http://metadata/computeMetadata/v1/instance/attributes/text -H "X-Google-Metadata-Request: True")
 CS_BUCKET=$(curl http://metadata/computeMetadata/v1/instance/attributes/cs-bucket -H "X-Google-Metadata-Request: True")
